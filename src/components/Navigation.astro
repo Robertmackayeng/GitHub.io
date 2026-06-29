@@ -1,0 +1,15 @@
+---
+import NavLink from './NavLink.astro';
+---
+
+<nav class="sticky top-0 bg-white shadow-md z-50">
+  <div class="max-w-6xl mx-auto px-5 flex justify-between items-center h-20">
+    <div class="text-2xl font-bold text-primary">Robert Mackay</div>
+    <ul class="flex gap-8 list-none">
+      <li><NavLink href="#home" label="Home" /></li>
+      <li><NavLink href="#about" label="About" /></li>
+      <li><NavLink href="#projects" label="Projects" /></li>
+      <li><NavLink href="#contact" label="Contact" /></li>
+    </ul>
+  </div>
+</nav>
